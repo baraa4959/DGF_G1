@@ -1,0 +1,164 @@
+/* ملفات الخطوط */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap");
+
+/* الإعدادات العامة */
+body {
+  font-family: "Cairo", sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+/* العناوين */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* الفقرات */
+p {
+  font-size: 16px;
+}
+
+/* الصور */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* تنسيق الهواتف المحمولة */
+@media (max-width: 768px) {
+  /* تغيير حجم النص */
+  body {
+    font-size: 14px;
+  }
+
+  /* تغيير حجم الصور */
+  img {
+    width: 50%;
+  }
+}
+
+/* أشكال جمالية */
+
+/* شريط التنقل */
+.navbar {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+/* خلفية الصفحة الرئيسية */
+.main {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+}
+
+/* صورة النبي محمد صلى الله عليه وسلم */
+.image {
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 5px;
+}
+
+/* محتوى الصفحة الرئيسية */
+.about {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about p {
+  text-align: justify;
+}
+
+/* نموذج الاتصال */
+.contact {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact form {
+  margin-top: 20px;
+}
+
+.contact input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* قائمة الصفحات */
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar li {
+  width: 20%;
+  margin-right: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  background-color: #ccc;
+}
